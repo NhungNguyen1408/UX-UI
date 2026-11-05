@@ -1,0 +1,17 @@
+BEAUTYGLOW - CACH 3 (MySQL + ERD + code web chay that)
+
+BUOC 1: Mo MySQL Workbench, chay database/01_schema.sql, sau do database/02_seed.sql.
+BUOC 2: Mo server/.env.example, copy thanh server/.env; sua DB_PASSWORD va JWT_SECRET.
+        Nhan dup CAI_THU_VIEN_WINDOWS.bat, sau do CMD:
+        cd server
+        npm run seed:demo
+BUOC 3: Nhan dup CHAY_BEAUTYGLOW_WINDOWS.bat va mo http://localhost:5173
+
+Tai khoan demo (chi de hoc):
+ Email: demo@beautyglow.local
+ Password: BeautyGlow123!
+
+HUONG DAN DAY DU CO TRONG: README_BAT_DAU.md
+SO DO ERD: docs/BeautyGlow_ERD.png
+DU LIEU KHONG CAN MAT KHAU DANG NHAP SQL: database/02_seed.sql
+LUU Y: MoMo va OTP chua tich hop that. Web la MVP, khong phai 109 man tu Figma.
