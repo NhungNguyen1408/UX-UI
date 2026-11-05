@@ -1,0 +1,49 @@
+BEAUTYGLOW - CACH 3 - XAMPP + PHPMYADMIN + REACT + NODE.JS
+
+KHONG XOA DATABASE DA TAO TRUOC DO.
+
+BUOC 1 - XAMPP
+  Mo XAMPP Control Panel, bam Start o dong MySQL.
+  Mo http://localhost/phpmyadmin
+  Xem database beautyglow_db, cac bang users, products, orders...
+  Neu da co 12 bang thi KHONG import lai 01_schema.sql.
+  Neu bang products rong, import database/02_seed.sql.
+
+BUOC 2 - CAU HINH BACKEND
+  Nhan dup CAU_HINH_XAMPP_WINDOWS.bat.
+  Script tao server/.env co JWT_SECRET ngau nhien.
+  Mac dinh MySQL: host=127.0.0.1, port=3306, user=root, mat khau rong.
+  Neu XAMPP MySQL dung port 3307 hoac co mat khau, mo server/.env sua cho dung.
+  Tuyet doi KHONG up server/.env len GitHub.
+
+BUOC 3 - CAI THU VIEN
+  Nhan dup CAI_THU_VIEN_WINDOWS.bat (can Internet va Node.js LTS).
+
+BUOC 4 - TAO DU LIEU DEMO
+  Trong VS Code: Terminal > New Terminal
+  cd server
+  npm run seed:demo
+  cd ..
+
+BUOC 5 - CHAY UNG DUNG
+  Nhan dup CHAY_BEAUTYGLOW_WINDOWS.bat.
+  Hoac mo hai Terminal:
+    Terminal 1: cd server && npm run dev
+    Terminal 2: cd web && npm run dev
+  Mo http://127.0.0.1:5173
+  Kiem tra http://localhost:4000/api/health
+
+DEMO LOGIN
+  Email: demo@beautyglow.local
+  Password: BeautyGlow123!
+
+CHUC NANG
+  Splash, onboarding, dang nhap, dang ky, trang chu, tim kiem,
+  loc gia, chi tiet, gio hang, dia chi, COD / MoMo mo phong,
+  don hang, huy don cho xac nhan, yeu thich, danh gia, tai khoan.
+
+TRANG THAI
+  Code da qua kiem tra cu phap va test tinh; van can chay thuc te
+  tren Windows va XAMPP cua ban de xac nhan Database va giao dien.
+  Giao dien la ban hoc tap, chua copy 1:1 tat ca frame Figma.
+  Anh my pham la SVG minh hoa, chua co asset goc Figma.
